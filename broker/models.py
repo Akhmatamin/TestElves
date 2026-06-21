@@ -45,7 +45,7 @@ class Stock(models.Model):
     ticker = models.CharField(max_length=10, unique=True)
     name = models.CharField(max_length=150)
 
-    # Твои важные поля (НЕ УБИРАЕМ)
+    
     series_number = models.IntegerField(null=True, blank=True)
     gos_number = models.CharField(max_length=20, unique=True)
     nominal_price = models.DecimalField(max_digits=18, decimal_places=4, null=True, blank=True)
