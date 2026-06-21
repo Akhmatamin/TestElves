@@ -5,4 +5,4 @@ def generate_otp():
 
 def send_sms(phone, code):
     print(f"SMS sent to {phone}: {code}")
-    # Здесь позже подключишь Megacom/Twilio/O!
+    
